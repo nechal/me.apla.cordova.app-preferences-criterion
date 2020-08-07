@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-app-preferences",
+  "name": "cordova-plugin-app-preferences-criterion",
   "version": "0.99.3",
   "description": "Application preferences plugin and preference pane generator",
   "cordova": {
-    "id": "cordova-plugin-app-preferences",
+    "id": "cordova-plugin-app-preferences-criterion",
     "platforms": [
       "android",
       "ios",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apla/me.apla.cordova.app-preferences.git"
+    "url": "https://github.com/nechal/me.apla.cordova.app-preferences-criterion.git"
   },
   "bin": {
     "cordova-app-preferences-generator": "bin/build-app-settings.js"
@@ -47,7 +47,7 @@
   "author": "Ivan Baktsheev",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/apla/me.apla.cordova.app-preferences/issues"
+    "url": "https://github.com/nechal/me.apla.cordova.app-preferences-criterion/issues"
   },
-  "homepage": "https://github.com/apla/me.apla.cordova.app-preferences"
+  "homepage": "https://github.com/nechal/me.apla.cordova.app-preferences-criterion"
 }
