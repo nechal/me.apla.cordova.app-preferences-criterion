@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = function (context) {
-	var req = context.requireCordovaModule,
-		Q = req('q'),
-		path = req('path'),
-		ET = req('elementtree'),
-		cordova = req('cordova'),
+	var req = context.require,
+		Q = context.q,
+		path = require('path'),
+		ET = require('elementtree'),
+		cordova = require('cordova'),
 		cordova_lib = cordova.cordova_lib,
-		cordova_lib_util = req('cordova-lib/src/cordova/util'),
-		fs = require("./lib/filesystem")(Q, req('fs'), path),
+		cordova_lib_util = require('cordova-lib/src/cordova/util'),
+		fs = require("./lib/filesystem")(Q, require('fs'), path),
 		settings = require("./lib/settings")(fs, path),
 		platforms = {};
 
