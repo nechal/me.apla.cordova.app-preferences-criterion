@@ -1,4 +1,4 @@
-package me.apla.cordova.app-preferences;
+-preferences;
 
 import android.annotation.TargetApi;
 import android.content.Context;
